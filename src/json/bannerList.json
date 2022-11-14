@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "src": "https://biz.chosun.com/resizer/RLeMRzJ2wEczl3BLaCtJGfbw4yQ=/616x0/smart/cloudfront-ap-northeast-1.images.arcpublishing.com/chosunbiz/AQMHLW4YZYOOMTE4VJYUZJ2ZXQ.jpg",
+        "text": "첫번째 슬라이드 버튼",
+        "alt": "첫번째 슬라이드"
+    },
+    {
+        "id": 2,
+        "src": "https://pbs.twimg.com/media/FflT_SiacAAN3c5?format=jpg",
+        "text": "두번째 슬라이드 버튼",
+        "alt": "두번째 슬라이드"
+    },
+    {
+        "id": 3,
+        "src": "https://img.wowtv.co.kr/wowtv_news/dnrs/20221005/2022100507503903115d3244b4fed182172185139.jpg",
+        "text": "세번째 슬라이드 버튼",
+        "alt": "세번째 슬라이드"
+    },
+    {
+        "id": 4,
+        "src": "https://thumb.mtstarnews.com/21/2022/09/2022093007524365345_1.jpg/dims/resize/1200/crop/1200x630!/optimize",
+        "text": "네번째 슬라이드 버튼",
+        "alt": "네번째 슬라이드"
+    }
+]

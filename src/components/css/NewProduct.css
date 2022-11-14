@@ -1,0 +1,38 @@
+.productBody2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.NewBox {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.newProduct {
+  flex-grow: 2;
+  display: flex;
+  align-items: center;
+  flex-direction: column; /* 스판태그 글씨 div 아래로 넣기 위해 */
+}
+
+.newProduct > img {
+  /* padding-top: 30px; */
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+}
+
+.imText {
+  /* 이미지 위에 글자를 넣기 위해 */
+  position: absolute;
+  z-index: 1;
+  padding-top: 5px;
+  padding-left: 125px;
+  color: red;
+  /* background-color: white; */
+  /* align-items: right; */
+  /* text-align: right; */
+}

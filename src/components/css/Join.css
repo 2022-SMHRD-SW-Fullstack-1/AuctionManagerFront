@@ -1,0 +1,87 @@
+.joinBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100%;
+}
+.joinBox .jointitle {
+  width: 60%;
+  margin: 0 auto;
+}
+.joinBox .joinLine {
+  display: flex;
+  width: 27%;
+  box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+  margin: 20px 0px;
+  margin-right: 10px;
+  padding: 10px 10px;
+  border-radius: 10px;
+  flex-direction: row;
+}
+.joinBox .joinLabel {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  /* align-items: flex-start; */
+}
+.joinBox .joinInput {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.joinBox .joinLine .idCkBox {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  /* width: 50%; */
+  /* height: 25px; */
+}
+
+.joinBox div .message {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  color: lightslategray;
+}
+
+.joinBox .joinLine .idCk {
+  display: flex;
+  flex-direction: row;
+  /* width: 50%; */
+  /* height: 20px; */
+  border: none;
+  font-weight: 300;
+  background-color: #e2e0e0;
+  font-family: "GmarketSansMedium";
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.joinInput .genderBox {
+  display: flex;
+}
+
+.bottomBtn {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  width: 100px;
+  height: 45px;
+  border: none;
+  font-weight: 700;
+  background-color: #e2e0e0;
+  font-family: "GmarketSansMedium";
+  border-radius: 20px;
+  /* 마우스 포인터 바꾸기 */
+  cursor: pointer;
+}
+/* 활성화 */
+.bottomBtn:disabled {
+  background-color: #dadada;
+  color: white;
+}
+
+.idCk:disabled {
+  background-color: #dadada;
+  color: white;
+}

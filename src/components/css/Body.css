@@ -1,0 +1,22 @@
+/* body 컴포넌트 */
+
+.mainBody {
+  padding-top: 60px;
+  /* margin-left: 300px; */
+  /* box-sizing: border-box; */
+  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+}
+
+.gap {
+  width: 1652px;
+  /* padding: 50px; */
+}
+
+.proTitle {
+  padding: 5px;
+  font-size: 25px;
+}

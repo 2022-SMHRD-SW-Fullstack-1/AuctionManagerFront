@@ -1,0 +1,84 @@
+.page {
+  width: 100%;
+}
+
+.page > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titleWrap {
+  margin-top: 80px;
+  color: #262626;
+}
+
+.contentWarp {
+  margin-top: 26px;
+}
+
+.inputTitle {
+  /* padding-top: 10px; */
+  font-size: 12px;
+  font-weight: 600;
+  color: #262626;
+}
+
+.inputWrap {
+  display: flex;
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 8px;
+  background-color: white;
+  border: 1px solid #e2e0e0;
+  width: 240px;
+}
+
+.inputWrap:focus-within {
+  border: 1px solid #e2e0e0;
+}
+
+.input {
+  width: 100%;
+  outline: none;
+  border: none;
+  height: 17px;
+  font-family: "GmarketSansMedium";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.input::placeholder {
+  color: #dadada;
+}
+
+.errorMessageWrap {
+  margin-top: 8px;
+  color: #ef0000;
+  font-size: 12px;
+  /* box-sizing:border-box */
+}
+
+.bottomBtn {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  width: 100px;
+  height: 45px;
+  border: none;
+  font-weight: 700;
+  background-color: #e2e0e0;
+  font-family: "GmarketSansMedium";
+  border-radius: 20px;
+  /* 마우스 포인터 바꾸기 */
+  cursor: pointer;
+}
+
+/* 활성화 */
+.bottomBtn:disabled {
+  background-color: #dadada;
+  color: white;
+}
+
+.loginAPI {
+  margin-bottom: 50px;
+}

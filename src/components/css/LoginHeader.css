@@ -1,0 +1,86 @@
+.LoginHeader {
+  background-color: white;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  /* flex-direction: row;
+    justify-content: center; */
+  top: 0;
+  z-index: 100;
+
+  border-bottom: 0.3px solid lightgrey;
+  /* font-size: 20px; */
+}
+
+.logo {
+  width: 100px;
+  object-fit: contain;
+  margin: 0 10px;
+  margin-top: 5px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+/* header 첫 번째 박스 */
+.LoginFirst-box {
+  display: flex;
+  /* flex: 1; */
+  flex-grow: 2;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.LoginHeaderIcon {
+  box-sizing: content-box;
+  width: 24px;
+  height: 24px;
+}
+
+.LoginHeaderInput {
+  width: 500px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  font-family: "GmarketSansMedium";
+}
+
+/* 검색창 클릭 시 검정 테두리 안 보이게 하는 거 */
+.LoginHeaderInput:focus {
+  outline: none;
+}
+
+/* header 두 번째 박스 */
+.LoginSeconde-box {
+  background-color: white;
+  padding: 7px;
+  border-radius: 10px;
+  border: 0.3px solid lightgrey;
+  display: flex;
+}
+
+.searchBox {
+}
+
+.iconBox {
+  padding-top: 7px;
+  height: 24px;
+}
+
+/* header 세 번째 박스 */
+.LoginThird-box {
+  display: flex;
+  margin-right: 10px;
+  align-items: center;
+}
+
+/* header 세 번째 박스 링크들 */
+.LoginThird-box > * {
+  padding-left: 10px;
+  padding-bottom: 50px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}

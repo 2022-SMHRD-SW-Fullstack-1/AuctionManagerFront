@@ -1,0 +1,269 @@
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+#mp {
+  border: 1px #dcdde1 solid;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  font-size: 0.9em;
+  border-collapse: collapse;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 1.5em;
+
+  font-family: "GmarketSansMedium";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  float: left;
+  width: 700px;
+  border: solid 2px;
+  border-color: #dcdde1;
+}
+
+#mp thead {
+  font-weight: bold;
+}
+#mp td,
+#mp th {
+  padding: 1em 0.1em;
+  vertical-align: middle;
+}
+
+#mp td {
+  border-bottom: 1px solid #dcdde1;
+  background: #fff;
+}
+
+#mypagebox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#mypageleft {
+  display: inline-flex;
+  flex-direction: column;
+  width: 10%;
+  margin-top: 2px;
+  margin-left: 5px;
+}
+
+#mypageright {
+  display: inline-flex;
+  flex-direction: column;
+  line-height: 1.1;
+  -webkit-text-size-adjust: 100%;
+
+  padding-right: 80px;
+  margin-top: -20px;
+  float: right;
+  width: 1120px;
+}
+
+#printid {
+  float: left;
+  width: 250px;
+  height: 100px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  background-color: whitesmoke;
+}
+
+#printmoney {
+  float: left;
+  width: 250px;
+  height: 100px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  background-color: whitesmoke;
+}
+
+#font1 {
+  font-family: "GmarketSansMedium";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+}
+
+#description {
+  font-family: "GmarketSansMedium";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 1.3;
+  color: #333333;
+  -webkit-text-size-adjust: 100%;
+  padding-top: 0px;
+}
+
+#changeBtn {
+  font-family: "GmarketSansMedium";
+  margin-top: 20px;
+  float: center;
+  width: 100px;
+  font-size: 11px;
+
+  text-align: center;
+  line-height: 25px;
+  border-radius: 5px;
+}
+
+#moneyBtn {
+  font-family: "GmarketSansMedium";
+  margin-top: 15px;
+  float: center;
+  width: 80px;
+  font-size: 11px;
+
+  text-align: center;
+  line-height: 25px;
+  border-radius: 5px;
+}
+
+#node13 {
+  float: left;
+  width: 680px;
+}
+
+#reviewDiv {
+  border: 1px #dcdde1 solid;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  float: left;
+  width: 700px;
+}
+
+#reviewBtn {
+  float: left;
+  width: 680px;
+}
+
+#tablecss {
+  font-family: "GmarketSansMedium";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  float: left;
+  width: 700px;
+  border: solid 2px;
+  border-color: #dcdde1;
+}
+
+#Reviewcss {
+  font-family: "GmarketSansMedium";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  float: left;
+  width: 700px;
+  border: solid 2px;
+  border-color: #dcdde1;
+}
+
+#tablecss2 {
+  /* float: left;
+width: 600px; */
+  border: solid 2px;
+  border-color: #dcdde1;
+}
+
+.modal1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.modal1 .bg {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.modalbox1 {
+  position: absolute;
+  background-color: white;
+  width: 550px;
+  height: 550px;
+  padding: 15px;
+  z-index: 1;
+}
+
+#closebtn {
+  display: block;
+  width: 80px;
+  margin: 0 auto;
+}
+
+input.sub {
+  font-family: "GmarketSansMedium";
+  position: relative;
+  margin: 10;
+  margin: 2px 0;
+  font-weight: 550;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 5px;
+  box-shadow: 2 2px 5px rgba(0, 0, 0, 0.25);
+  background-color: whitesmoke;
+  border-color: #dcdde1;
+}
+
+button.btn {
+  font-family: "GmarketSansMedium";
+  position: relative;
+  padding: 0;
+  margin: 2px 0;
+  font-weight: 550;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 5px;
+  transition: all 0.2s;
+  box-shadow: 1px 2px 0 rgba(0, 0, 0, 0.25);
+  z-index: 0;
+}
+
+/* button.btn:visited {
+  box-shadow: 0px 0px 0 rgb(0,0,0,0.5);
+  position: relative;
+  top:3px;
+} */
+
+button.btn:hover {
+  box-shadow: 0px 0px 0px 0px #6d184b;
+}
+button.btn:active {
+  box-shadow: 0px 0px 0 rgb(0, 0, 0, 0.5);
+  position: relative;
+  top: 3px;
+}
+button.btnck {
+  font-family: "GmarketSansMedium";
+  position: relative;
+  padding: 0;
+  margin: 2px 0;
+  font-weight: 550;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 5px;
+  transition: all 0.2s;
+  box-shadow: 0px 0px 0 rgb(0, 0, 0, 0.5);
+  position: relative;
+  top: 3px;
+  z-index: 0;
+}
+
+#valueRadio {
+  width: 10px;
+}

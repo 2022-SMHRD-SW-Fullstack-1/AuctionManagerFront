@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.moveTopBtn {
+  font-family: "GmarketSansMedium";
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  width: 4rem;
+  height: 4rem;
+  background: black;
+  color: #fff;
+
+  border-radius: 50%;
+  z-index: 1;
+}

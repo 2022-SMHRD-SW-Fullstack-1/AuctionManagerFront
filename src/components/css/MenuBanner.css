@@ -1,0 +1,76 @@
+.menuBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.selectBox {
+  display: flex;
+}
+
+.brandMenu {
+  flex-flow: 1;
+  width: 200px;
+  height: 400px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px;
+  padding-top: 145px;
+}
+
+.categoryMenu {
+  flex-flow: 1;
+  width: 200px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  padding-top: 100px;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  box-sizing: content-box;
+  width: 60em;
+  height: 500px;
+  background-color: white;
+  background-size: cover;
+  /* 핵심코드 */
+  position: relative;
+  /* 핵심코드 */
+}
+
+/* @media screen and(max-width: 840px) {
+     .categoryMenu, .brandMenu{
+        padding: 8px 20px;
+     }
+} */
+
+.categoryItem {
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  /* padding-right: 0px; */
+  margin: 0px;
+  cursor: pointer;
+}
+
+.brandItem {
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  padding-right: 0px;
+  margin: 0px;
+  cursor: pointer;
+}
+
+.menuBox > .brandMenu,
+.categoryMenu {
+  /* padding-top: 100px; */
+}

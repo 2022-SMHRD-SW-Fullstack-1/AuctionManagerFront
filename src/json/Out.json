@@ -1,0 +1,30 @@
+[
+    {
+        "title": "마감 임박 상품 1",
+        "price": "50,000",
+        "member": "다인",
+        "photo": "../components/img/dress.png",
+        "alt": "첫번째 임박 상품"
+    },
+    {
+        "title": "마감 임박 상품 2",
+        "price": "55,000",
+        "member": "소연",
+        "photo": "../components/img/dress.png",
+        "alt": "두번째 임박 상품"
+    },
+    {
+        "title": "마감 임박 상품 3",
+        "price": "30,000",
+        "member": "성용",
+        "photo": "../components/img/dress.png",
+        "alt": "세번째 임박 상품"
+    },
+    {
+        "title": "마감 임박 상품 4",
+        "price": "50,000",
+        "member": "민욱",
+        "photo": "../components/img/dress.png",
+        "alt": "네번째 임박 상품"
+    }
+]

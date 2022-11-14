@@ -1,0 +1,154 @@
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.addProTable {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* table{ */
+.addProTable {
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25); */
+}
+
+.addProTable input {
+  font-family: "GmarketSansMedium";
+}
+
+.addProTable select {
+  font-family: "GmarketSansMedium";
+}
+
+.addProduct1 {
+  /* border: none; */
+
+  /* box-shadow: 2 2px 5px rgba(0, 0, 0, 0.25); */
+}
+
+.addProTable .addProduct1 {
+  /* position: absolute; */
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  font-family: "GmarketSansMedium";
+}
+.addProTable .addProduct1 table tr td {
+  border: none;
+  outline: none;
+}
+.addProTable .pro_name1 {
+  border: 1px solid #dcdde1;
+}
+
+.addProTable #number1 {
+  border: 1px solid #dcdde1;
+}
+
+.addProTable .pro_input {
+  width: 500px;
+  font-family: "GmarketSansMedium";
+
+  /* border: 1px solid white; */
+}
+
+.pro_Desc {
+  font-family: "GmarketSansMedium";
+
+  cursor: pointer;
+  border: 1px solid #dcdde1;
+}
+
+.addProTable #pro_Category1 {
+  width: 100px;
+  align-items: center;
+  text-align: center;
+  font-family: "GmarketSansMedium";
+
+  cursor: pointer;
+
+  border: 1px solid #dcdde1;
+}
+
+/* .App option {
+  width: 500px;
+  font-family: "GmarketSansMedium";
+
+  cursor: pointer;
+  border: 1px solid #dcdde1;
+} */
+
+.addProTable #pro_Status {
+  font-family: "GmarketSansMedium";
+
+  cursor: pointer;
+
+  border: 1px solid #dcdde1;
+}
+
+.addProTable #pro_Brand1 {
+  font-family: "GmarketSansMedium";
+
+  cursor: pointer;
+
+  border: 1px solid #dcdde1;
+}
+
+.addProTable textarea {
+  width: 500px;
+  height: 200px;
+  font-family: "GmarketSansMedium";
+  border: 1px solid #dcdde1;
+}
+
+.addProTable .submitBtn1 {
+  width: 50px;
+  cursor: pointer;
+
+  /* border:1px solid yellow;
+    background-color: white; */
+
+  border: 1px solid #dcdde1;
+  cursor: pointer;
+}
+
+.addProTable .proStatusBtn1 {
+  border: 1px solid #dcdde1;
+  background-color: white;
+  cursor: pointer;
+
+  /* margin-left: 5px; */
+}
+
+.addProTable #file-upload-button {
+  /* visibility: hidden; */
+  /* padding: 6px 25px;
+  background-color: #ff6600;
+  border-radius: 4px;
+  color: white; */
+  cursor: pointer;
+  /* border: none;
+  outline: none; */
+
+  /* border: 1px solid #dcdde1; */
+  background-color: white;
+}
+
+.addProTable .proStatusButton {
+  border: 1px solid #dcdde1;
+  cursor: pointer;
+}
+
+.addProTable #pro_Min_Price1 {
+  border: 1px solid #dcdde1;
+  background-color: white;
+  cursor: pointer;
+}
