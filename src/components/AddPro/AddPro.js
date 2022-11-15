@@ -116,9 +116,11 @@ const AddPro = () => {
       <h1>상품 등록</h1>
 
       <form className="addProduct1" onSubmit={submitCk}>
-        <table width="1000px" className="addProTable">
+        <table width="1500px" className="addProTable">
           <tr className="proTable">
-            <td width="200px">상품명</td>
+            <td width="200px" className="left">
+              상품명
+            </td>
             <td>
               <input
                 type="text"
@@ -131,7 +133,9 @@ const AddPro = () => {
           </tr>
 
           <tr className="proTable1">
-            <td width="200px">상품상세정보</td>
+            <td width="200px" className="left">
+              상품상세정보
+            </td>
             <textarea
               cols="56"
               rows="5"
@@ -141,7 +145,9 @@ const AddPro = () => {
           </tr>
 
           <tr className="proTable1">
-            <td width="200px">상품 상태 설정</td>
+            <td width="200px" className="left">
+              상품 상태 설정
+            </td>
             <td className="proTable">
               <select name="pro_Status" ref={proStatusRef}>
                 <option value="S"> S등급 </option>
@@ -201,7 +207,9 @@ const AddPro = () => {
             </td>
           </tr>
           <tr>
-            <td width="200px">카테고리</td>
+            <td width="200px" className="left">
+              카테고리
+            </td>
             <td>
               <select name="pro_Category1" ref={proCategoryRef}>
                 <option value="아우터">아우터</option>
@@ -213,7 +221,9 @@ const AddPro = () => {
             </td>
           </tr>
           <tr>
-            <td width="200px">브랜드</td>
+            <td width="200px" className="left">
+              브랜드
+            </td>
             <td>
               <select name="pro_Brand1" ref={proBrandRef}>
                 <option value="나이키">나이키</option>
@@ -224,7 +234,9 @@ const AddPro = () => {
           </tr>
 
           <tr>
-            <td width="200px">경매시작가</td>
+            <td width="200px" className="left">
+              경매시작가
+            </td>
             <td>
               <input
                 id="number1"
@@ -239,14 +251,16 @@ const AddPro = () => {
           </tr>
 
           <tr>
-            <td>사진첨부</td>
+            <td className="left">사진첨부</td>
             <td className="addImg" name="pro_Photo1">
               <PhotoUploader imgName={imgName} setImgName={setImgName} />
             </td>
           </tr>
 
           <tr>
-            <td width="200px">마감기한</td>
+            <td width="200px" className="left">
+              마감기한
+            </td>
             <td name="pro_Deadline1" ref={proDeadlineRef}>
               {remainTime}
             </td>

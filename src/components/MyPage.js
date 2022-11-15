@@ -17,6 +17,11 @@ function MyPage() {
   const [money, setMoney] = useState();
   const [nick, setNick] = useState("");
 
+  //참여중 상품 map함수를 위한 객체생성
+  const [biding, setBiding] = useState([{}]);
+  //참여중인 상품 체크여부
+  const [bidingCk, setBidingCk] = useState(false);
+
   //판매중 상품 map함수를 위한 객체생성
   const [sell, setSell] = useState([{}]);
   //판매중인 상품 체크여부
@@ -174,6 +179,7 @@ function MyPage() {
   }, [reviewData]);
 
   const infoUrl = "/pickmeup/mypage/" + user;
+  const bidingUrl = "/pickmeup/mypage/biding/" + user;
   const sellUrl = "/pickmeup/mypage/sell/" + user;
   const bidUrl = "/pickmeup/mypage/bid/" + user;
   const myReviewUrl = "/pickmeup/myReview/" + user;
@@ -185,6 +191,15 @@ function MyPage() {
       //닉네임,픽머니 받아온다.
       console.log("info", res);
       callback(res.data.mem_Pickmoney, res.data.mem_Nick);
+    });
+
+    axios.get(bidingUrl).then((res) => {
+      //참여중 입찰 리스트 받아온다.
+      console.log("bidingList", res);
+      setBiding(res.data);
+      if (res.data.length >= 1) {
+        setBidingCk(true);
+      }
     });
 
     axios.get(sellUrl).then((res) => {
@@ -216,6 +231,22 @@ function MyPage() {
   }, []);
 
   //컴포넌트
+
+  const BidingComplete = ({ obj }) => {
+    const GoToDetail = () => {
+      Navigate("/detail?pro_num=" + obj.pro_Num);
+    };
+    return (
+      <tr>
+        <td>{obj.pro_Num}</td>
+        <td onClick={GoToDetail}>{obj.pro_Name}</td>
+        <td>{obj.auc_Price}</td>
+        <td>{obj.my_auc_Price}</td>
+        <td>{obj.pro_Deadline}</td>
+        <td>{obj.mem_Id}</td>
+      </tr>
+    );
+  };
 
   const SellComplete = ({ obj }) => {
     return (
@@ -419,24 +450,30 @@ function MyPage() {
           <br></br>
           <h5 id="node13">● 참여중인 경매</h5>
           <table id="mp">
-            <tbody>
+            <thead>
               <tr align="center" id="font1">
-                <th>경매번호</th>
+                <th>상품번호</th>
                 <th>경매상품명</th>
                 <th>나의입찰가</th>
-                <th>현재 낙찰가능가</th>
-                <th>판매수량</th>
+                <th>현재입찰가</th>
                 <th>경매마감일</th>
+                <th>판매자</th>
                 <th></th>
               </tr>
-              <tr>
+            </thead>
+            <tbody>
+              {bidingCk ? (
+                biding.map((obj, idx) => (
+                  <BidingComplete key={obj.pro_Num} obj={obj} />
+                ))
+              ) : (
                 <td align="center" colspan="8">
                   <br></br>
                   <span id="font1">조회된 리스트가 없습니다.</span>
                   <br></br>
                   <br></br>
                 </td>
-              </tr>
+              )}
             </tbody>
           </table>
 

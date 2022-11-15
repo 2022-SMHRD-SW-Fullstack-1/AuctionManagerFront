@@ -10,10 +10,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
 
-/* table{ */
-.addProTable {
   /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25); */
 }
 
@@ -28,7 +25,7 @@
 .addProduct1 {
   /* border: none; */
 
-  /* box-shadow: 2 2px 5px rgba(0, 0, 0, 0.25); */
+  box-shadow: 2 2px 5px rgba(0, 0, 0, 0.25);
 }
 
 .addProTable .addProduct1 {
