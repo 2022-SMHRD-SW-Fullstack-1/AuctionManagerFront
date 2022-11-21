@@ -63,7 +63,6 @@
 <br>
 
 ## 📌 시스템 아키텍처 
-![서비스 아키텍처]
 ![image](https://user-images.githubusercontent.com/107412366/202659293-5bdd57cb-5687-4ca4-82ab-48ad884af211.png)
 ![image](https://user-images.githubusercontent.com/107412366/202659420-a533420b-09d7-4703-981c-b1bb4fed6a8b.png)
 ![image](https://user-images.githubusercontent.com/107412366/202659572-8ea3b5d8-fafa-4a72-9eb7-fd560f8da78c.png)
