@@ -104,10 +104,11 @@
 ## 👨‍👩‍👦‍👦 팀원 역할
 <table>
   <tr>
-    <td align="center"><img src="https://item.kakaocdn.net/do/fd49574de6581aa2a91d82ff6adb6c0115b3f4e3c2033bfd702a321ec6eda72c" width="100" height="100"/></td>
-    <td align="center"><img src="https://mb.ntdtv.kr/assets/uploads/2019/01/Screen-Shot-2019-01-08-at-4.31.55-PM-e1546932545978.png" width="100" height="100"/></td>
-    <td align="center"><img src="https://mblogthumb-phinf.pstatic.net/20160127_177/krazymouse_1453865104404DjQIi_PNG/%C4%AB%C4%AB%BF%C0%C7%C1%B7%BB%C1%EE_%B6%F3%C0%CC%BE%F0.png?type=w2" width="100" height="100"/></td>
-    <td align="center"><img src="https://i.pinimg.com/236x/ed/bb/53/edbb53d4f6dd710431c1140551404af9.jpg" width="100" height="100"/></td>
+    <td align="center"><img src="https://user-images.githubusercontent.com/112370869/202968630-5f1d2b83-c3d4-4b5f-9193-ad46261a56e3.jpg" width="100" height="100"/></td>
+    <td align="center"><img src="https://user-images.githubusercontent.com/112370869/202968590-1b928408-55fe-4a58-b0c4-8ffac7036a40.jpg" width="100" height="100"/></td>
+    <td align="center"><img src="https://user-images.githubusercontent.com/112370869/202968356-9b5c7a80-267f-4fa0-bfe9-f89f5010c955.jpg" width="100" height="100"/></td>
+    <td align="center">
+    <img src="https://user-images.githubusercontent.com/112370869/202968546-acacc9b2-1342-4667-90e5-4adc0f807baa.jpg" width="100" height="100"/></td>
   </tr>
   <tr>
     <td align="center"><strong>나소연</strong></td>
@@ -116,16 +117,16 @@
     <td align="center"><strong>박민욱</strong></td>
   </tr>
   <tr>
-    <td align="center"><b>Frontend, Backend</b></td>
-    <td align="center"><b>Frontend, Backend</b></td>
-    <td align="center"><b>Frontend, Backend</b></td>
-    <td align="center"><b>Frontend, Backend</b></td>
+    <td align="center"><b>Frontend<br/> Backend</b></td>
+    <td align="center"><b>Frontend<br/> Backend</b></td>
+    <td align="center"><b>Frontend<br/> Backend</b></td>
+    <td align="center"><b>Frontend<br/> Backend</b></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
-    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
-    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
-    <td align="center"><a href="https://github.com/자신의username작성해주세요" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/skthdus" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/0dain" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/YouSeongYong" target='_blank'>github</a></td>
+    <td align="center"><a href="https://github.com/m1lotic" target='_blank'>github</a></td>
   </tr>
 </table>
 
