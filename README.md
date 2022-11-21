@@ -97,11 +97,11 @@
 <br>
 
 ### 상품상세페이지
-![image](https://user-images.githubusercontent.com/25995055/178401150-861f0e93-0f40-4fae-98c1-2099bf513c8d.png)
+![image (5)](https://user-images.githubusercontent.com/112370869/202969275-505e72b6-c62e-4157-84ab-bbe3991677e6.png)
 <br>
 
-### 일정/고객센터
-![image](https://user-images.githubusercontent.com/25995055/178401150-861f0e93-0f40-4fae-98c1-2099bf513c8d.png)
+### 마이페이지
+![image (5)](https://user-images.githubusercontent.com/112370869/202969319-c87f81f2-10dc-4379-a7dd-f6fad6fbcaf4.png)
 <br>
 
 ## 👨‍👩‍👦‍👦 팀원 역할
