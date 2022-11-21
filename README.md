@@ -97,6 +97,10 @@
 ![image](https://user-images.githubusercontent.com/107412366/202660651-5fdcad97-ddbc-48be-b947-68d62df5a566.png)
 <br>
 
+### 상품상세페이지
+![image](https://user-images.githubusercontent.com/25995055/178401150-861f0e93-0f40-4fae-98c1-2099bf513c8d.png)
+<br>
+
 ### 일정/고객센터
 ![image](https://user-images.githubusercontent.com/25995055/178401150-861f0e93-0f40-4fae-98c1-2099bf513c8d.png)
 <br>
