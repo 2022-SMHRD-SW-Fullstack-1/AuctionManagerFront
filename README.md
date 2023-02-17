@@ -138,7 +138,10 @@
 프로젝트 진행하는 동안 발생했던 이슈 중 가장 기억에 남았던 문제와 해결 프로세스 나열(2~5가지 정도)
   
 * 문제1<br>
- 문제점 설명 및 해결방안
+ [상품 등록] 두 개 테이블 insert 작업 시, 등록 오류 > select key를 사용하여 개선
  
 * 문제2<br>
- 문제점 설명 및 해결방안
+ [로그인] localStorage에 로그인 회원 정보 저장 > sessionStorage를 사용하여 개선
+ 
+ * 문제3<br>
+ [로그인] Spring Boot에서 가져온 값이 Object 타입이라 React에서 undefined 출력 > JSON.parse를 사용하여 개선
